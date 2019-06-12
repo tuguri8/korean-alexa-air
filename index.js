@@ -26,8 +26,8 @@ function testFunc(air) {
         } else if (data) {
             let s3params = {
                 Body: data.AudioStream,
-                Bucket: "hanechotest",
-                Key: `air1818.mpeg`,
+                Bucket: "bucket-name",
+                Key: `filename.mpeg`,
                 ACL: "public-read"
             };
 
